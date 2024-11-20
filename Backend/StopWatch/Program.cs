@@ -1,3 +1,6 @@
+using StopWatch.Repositories;
+using StopWatch.Repositories.Contract;
+
 namespace StopWatch
 {
     public class Program
@@ -9,6 +12,9 @@ namespace StopWatch
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            builder.Services.AddScoped<IImageAnalysisRepository, ImageAnalysisRepository>();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
