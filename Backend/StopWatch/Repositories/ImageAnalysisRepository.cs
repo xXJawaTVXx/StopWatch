@@ -6,7 +6,7 @@ namespace StopWatch.Repositories
     {
         public Task<string> AnalyseImage(string image)
         {
-            throw new NotImplementedException();
+            return Task.FromResult("Sucess");
         }
     }
 }

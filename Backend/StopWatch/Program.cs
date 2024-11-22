@@ -1,3 +1,6 @@
+using StopWatch.Repositories.Contract;
+using StopWatch.Repositories;
+
 namespace StopWatch
 {
     public class Program
@@ -9,9 +12,19 @@ namespace StopWatch
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddScoped<IImageAnalysisRepository, ImageAnalysisRepository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
 
             var app = builder.Build();
 
@@ -23,6 +36,8 @@ namespace StopWatch
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 
