@@ -536,24 +536,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NighelApostol\\.nuget\\packages\\": {},
+    "C:\\Users\\LenaKoller\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\StopWatch.csproj",
+      "projectUniqueName": "C:\\Users\\LenaKoller\\Documents\\docs\\BerufsschuleDocs\\LJ3\\LF12\\Stopwatch_New\\Backend\\StopWatch\\StopWatch.csproj",
       "projectName": "StopWatch",
-      "projectPath": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\StopWatch.csproj",
-      "packagesPath": "C:\\Users\\NighelApostol\\.nuget\\packages\\",
-      "outputPath": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\obj\\",
+      "projectPath": "C:\\Users\\LenaKoller\\Documents\\docs\\BerufsschuleDocs\\LJ3\\LF12\\Stopwatch_New\\Backend\\StopWatch\\StopWatch.csproj",
+      "packagesPath": "C:\\Users\\LenaKoller\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LenaKoller\\Documents\\docs\\BerufsschuleDocs\\LJ3\\LF12\\Stopwatch_New\\Backend\\StopWatch\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\NighelApostol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LenaKoller\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -562,6 +561,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/allinsight/_packaging/Framework/nuget/v3/index.json": {},
         "https://pkgs.dev.azure.com/allinsight/_packaging/HAWE/nuget/v3/index.json": {}
@@ -581,7 +581,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {

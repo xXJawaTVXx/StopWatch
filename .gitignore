@@ -4,6 +4,8 @@
 
 /Backend/StopWatch/.vs/StopWatch
 /Backend/StopWatch/bin/Debug/net6.0
+/Backend/StopWatch/obj
+/Backend/StopWatch/.vs
 
 # Node.js
 node_modules/
