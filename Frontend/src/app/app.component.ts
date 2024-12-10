@@ -9,14 +9,14 @@ import { tap } from 'rxjs';
 })
 export class AppComponent {
   public stopWatchTime: string = '0:20:00:14';
-  public allowedTypes: string[] = ['image/jpeg'];
+  public allowedTypes: string[] = ['image/jpeg', 'image/png'];
 
   public constructor(private readonly _imageService: ImageService) {
   }
 
   public async onFileSelected(event: any): Promise<void> {
     const uploadedImage: File = event.files[0];
-    if (uploadedImage && uploadedImage.type == this.allowedTypes[0]) {
+    if (uploadedImage && this.allowedTypes.includes(uploadedImage.type)) {
       const base64String: string = await this._imageService.convertToBase64(uploadedImage);
       this._imageService.postImageToAnalyse(base64String).pipe(
         tap((res: string): string => this.stopWatchTime = res)
