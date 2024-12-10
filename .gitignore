@@ -7,6 +7,8 @@
 /Backend/StopWatch/obj
 /Backend/StopWatch/.vs
 
+/Frontend/.angular
+
 # Node.js
 node_modules/
 npm-debug.log*
