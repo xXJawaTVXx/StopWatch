@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "dFtaLtN80Yi7ZTobVlyLB3Xez8SqgXGiL87mVwi58ao=",
+  "Hash": "o5xWPR3Ulohsl7aos0TPV8tc9+xixCZkOeHeXikk71Y=",
   "Source": "StopWatch",
   "BasePath": "_content/StopWatch",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

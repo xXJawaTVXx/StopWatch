@@ -21,7 +21,11 @@ export class ImageService {
     return new Promise((resolve, reject): void => {
       const reader: FileReader = new FileReader();
 
-      reader.onload = () => resolve(reader.result as string);
+      reader.onload = (): void => {
+        const result = reader.result as string;
+        const base64String = result.split(',')[1];
+        resolve(base64String);
+      };
       reader.onerror = (error: ProgressEvent<FileReader>) => reject(`Error converting file to base64: ${ error }`);
 
       reader.readAsDataURL(file);

@@ -22,7 +22,7 @@ export class AppComponent {
         tap((res: string): string => this.stopWatchTime = res)
       ).subscribe();
     } else {
-      console.error("Error while uploading");
+      console.error("Error while uploading: Type not allowed");
     }
   }
 }

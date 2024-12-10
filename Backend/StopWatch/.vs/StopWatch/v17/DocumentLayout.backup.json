@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1C5D3686-4519-4907-836D-52AA06FF6453}|StopWatch.csproj|c:\\school projects\\stopwatch\\backend\\stopwatch\\controllers\\stopwatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5D3686-4519-4907-836D-52AA06FF6453}|StopWatch.csproj|solutionrelative:controllers\\stopwatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C5D3686-4519-4907-836D-52AA06FF6453}|StopWatch.csproj|c:\\school projects\\stopwatch\\backend\\stopwatch\\repositories\\imageanalysisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5D3686-4519-4907-836D-52AA06FF6453}|StopWatch.csproj|solutionrelative:repositories\\imageanalysisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,32 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageAnalysisRepository.cs",
-              "DocumentMoniker": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\Repositories\\ImageAnalysisRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ImageAnalysisRepository.cs",
-              "ToolTip": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\Repositories\\ImageAnalysisRepository.cs",
-              "RelativeToolTip": "Repositories\\ImageAnalysisRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:18:41.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StopWatchController.cs",
-              "DocumentMoniker": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\Controllers\\StopWatchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StopWatchController.cs",
-              "ToolTip": "C:\\School Projects\\StopWatch\\Backend\\StopWatch\\Controllers\\StopWatchController.cs",
-              "RelativeToolTip": "Controllers\\StopWatchController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:52:57.262Z",
-              "EditorCaption": ""
             }
           ]
         }
