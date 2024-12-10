@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StopWatch.DTOs;
 using StopWatch.Repositories.Contract;
 
 namespace StopWatch.Controllers

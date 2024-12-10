@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "StopWatch.Controllers.StopWatchController",
+    "Method": "UploadedImage",
+    "RelativePath": "stopwatch/analyse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "image",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
