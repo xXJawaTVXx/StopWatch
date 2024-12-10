@@ -17,7 +17,6 @@
 /Frontend/node_modules/
 /Frontend/dist/
 /Frontend/.angular/cache/
-/Frontend/src/environments/environment*.ts
 
 # Allgemein
 *.log

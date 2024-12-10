@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="532af2a7-6b19-4a97-9fb1-0e15364844f1" name="Changes" comment="Changed to includes">
-      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/EndpointInfo/StopWatch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/EndpointInfo/StopWatch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache" afterDir="false" />
-    </list>
+    <list default="true" id="532af2a7-6b19-4a97-9fb1-0e15364844f1" name="Changes" comment="Changed to includes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
   "keyToString": {
     "git-widget-placeholder": "dev",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\Users\\LenaKoller\\AppData\\Local\\Programs\\PhpStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+    "ts.external.directory.path": "C:\\School Projects\\StopWatch\\Frontend\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RunManager">
