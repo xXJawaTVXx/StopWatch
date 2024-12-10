@@ -3,21 +3,21 @@
 ################################################################################
 
 # .NET
-bin/
-obj/
-.vs/
-*.dll
-*.exe
-appsettings*.json
-secrets.json
-Migrations/
-*.pdb
+/Backend/StopWatch/bin/
+/Backend/StopWatch/obj/
+/Backend/StopWatch/.vs/
+/Backend/StopWatch/*.dll
+/Backend/StopWatch/*.exe
+/Backend/StopWatch/appsettings*.json
+/Backend/StopWatch/secrets.json
+/Backend/StopWatch/Migrations/
+/Backend/StopWatch/*.pdb
 
 # Angular
-node_modules/
-dist/
-.angular/cache/
-src/environments/environment*.ts
+/Frontend/node_modules/
+/Frontend/dist/
+/Frontend/.angular/cache/
+/Frontend/src/environments/environment*.ts
 
 # Allgemein
 *.log
@@ -26,15 +26,3 @@ logs/
 *.swp
 .DS_Store
 Thumbs.db
-/Frontend/.angular/cache/18.2.8/Frontend
-/Backend/StopWatch/.vs/StopWatch/FileContentIndex/543f3183-c27c-477e-ae0d-44fd23fbdde7.vsidx
-/Backend/StopWatch/obj/project.assets.json
-/Backend/StopWatch/obj/project.nuget.cache
-/Backend/StopWatch/obj/project.packagespec.json
-/Backend/StopWatch/obj/rider.project.model.nuget.info
-/Backend/StopWatch/obj/rider.project.restore.info
-/Backend/StopWatch/obj/StopWatch.csproj.nuget.dgspec.json
-/Backend/StopWatch/obj/StopWatch.csproj.nuget.g.props
-/Backend/StopWatch/.vs/StopWatch/v17/.suo
-/Backend/StopWatch/.vs/StopWatch/v17/DocumentLayout.backup.json
-/Backend/StopWatch/.vs/StopWatch/v17/DocumentLayout.json
