@@ -4,6 +4,10 @@
 
 /Backend/StopWatch/.vs/StopWatch
 /Backend/StopWatch/bin/Debug/net6.0
+/Backend/StopWatch/obj
+/Backend/StopWatch/.vs
+
+/Frontend/.angular
 
 # Node.js
 node_modules/
@@ -95,3 +99,29 @@ tmp/
 *.iml
 *.out
 *.log
+
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/browser-BB57I2NR.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/browser-BB57I2NR.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-B7DGTXIV.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-B7DGTXIV.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-C7GGQ56N.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-C7GGQ56N.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-CWTAE4RE.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-CWTAE4RE.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-DSCMQENN.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-DSCMQENN.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JGO7FWO2.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JGO7FWO2.js.map
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JMRA4BZN.js
+/Frontend/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JMRA4BZN.js.map
+/Backend/StopWatch/obj/Debug/net6.0
+/Backend/StopWatch/obj/Debug/net6.0/EndpointInfo
+/Backend/StopWatch/obj/Debug/net6.0/EndpointInfo/StopWatch.json
+/Backend/StopWatch/obj/Debug/net6.0/staticwebassets.references.upToDateCheck.txt
+/Backend/StopWatch/obj/Debug/net6.0/staticwebassets.removed.txt
+/Frontend/.idea/workspace.xml
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.assets.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.csproj.AssemblyReference.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.GeneratedMSBuildEditorConfig.editorconfig
