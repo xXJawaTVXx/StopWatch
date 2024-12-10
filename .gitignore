@@ -116,3 +116,8 @@ tmp/
 /Backend/StopWatch/obj/Debug/net6.0/staticwebassets.references.upToDateCheck.txt
 /Backend/StopWatch/obj/Debug/net6.0/staticwebassets.removed.txt
 /Frontend/.idea/workspace.xml
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.assets.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.csproj.AssemblyReference.cache
+/Backend/StopWatch/obj/Debug/net6.0/StopWatch.GeneratedMSBuildEditorConfig.editorconfig
