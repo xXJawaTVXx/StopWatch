@@ -1,4 +1,5 @@
 ﻿using StopWatch.Repositories.Contract;
+using Tesseract;
 
 namespace StopWatch.Repositories
 {
@@ -6,7 +7,15 @@ namespace StopWatch.Repositories
     {
         public Task<string> AnalyseImage(string image)
         {
-            return Task.FromResult("Sucess");
+            var engine = new TesseractEngine(@"tessdata", "eng", EngineMode.Default);
+            var img = Pix.LoadFromFile(@"Images/testocr.png");
+            var page = engine.Process(img);
+
+            var text = page.GetText();
+
+            Console.WriteLine(text);
+
+            return Task.FromResult(text);
         }
     }
 }
