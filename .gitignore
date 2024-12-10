@@ -27,3 +27,11 @@ logs/
 .DS_Store
 Thumbs.db
 /Frontend/.angular/cache/18.2.8/Frontend
+/Backend/StopWatch/.vs/StopWatch/FileContentIndex/543f3183-c27c-477e-ae0d-44fd23fbdde7.vsidx
+/Backend/StopWatch/obj/project.assets.json
+/Backend/StopWatch/obj/project.nuget.cache
+/Backend/StopWatch/obj/project.packagespec.json
+/Backend/StopWatch/obj/rider.project.model.nuget.info
+/Backend/StopWatch/obj/rider.project.restore.info
+/Backend/StopWatch/obj/StopWatch.csproj.nuget.dgspec.json
+/Backend/StopWatch/obj/StopWatch.csproj.nuget.g.props
