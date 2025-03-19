@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="532af2a7-6b19-4a97-9fb1-0e15364844f1" name="Changes" comment="Changed to includes" />
+    <list default="true" id="532af2a7-6b19-4a97-9fb1-0e15364844f1" name="Changes" comment="Changed to includes">
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/Repositories/ImageAnalysisRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/Repositories/ImageAnalysisRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/StopWatch.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/StopWatch.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/StopWatch/obj/Debug/net6.0/StopWatch.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/browser-BB57I2NR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/browser-BB57I2NR.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-B7DGTXIV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-B7DGTXIV.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-C7GGQ56N.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-C7GGQ56N.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-CWTAE4RE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-CWTAE4RE.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-DSCMQENN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-DSCMQENN.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JGO7FWO2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JGO7FWO2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JMRA4BZN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/Frontend/vite/deps/chunk-JMRA4BZN.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,14 +39,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2q4F5qz1cTnSOl0EcF4X3iY0sc5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "dev",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\School Projects\\StopWatch\\Frontend\\node_modules\\typescript\\lib"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start-https.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\LenaKoller\\Documents\\docs\\BerufsschuleDocs\\LJ3\\LF12\\Stopwatch_New\\Frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start-https" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -36,8 +75,33 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PS-243.22562.233" />
+        <option value="bundled-php-predefined-a98d8de5180a-7980c7aaca61-com.jetbrains.php.sharedIndexes-PS-243.22562.233" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="532af2a7-6b19-4a97-9fb1-0e15364844f1" name="Changes" comment="Changed to includes" />
+      <created>1733913765850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733913765850</updated>
+      <workItem from="1733913769038" duration="3327000" />
+      <workItem from="1734338261429" duration="116000" />
+      <workItem from="1736247556923" duration="504000" />
+      <workItem from="1736335211314" duration="1518000" />
+      <workItem from="1736345962785" duration="1928000" />
+      <workItem from="1736420037643" duration="142000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed to includes" />
