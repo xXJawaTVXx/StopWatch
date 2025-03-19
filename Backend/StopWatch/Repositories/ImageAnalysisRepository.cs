@@ -1,4 +1,5 @@
-﻿using SkiaSharp;
+﻿using System.Text.RegularExpressions;
+using SkiaSharp;
 using StopWatch.Repositories.Contract;
 using Tesseract;
 
@@ -12,6 +13,7 @@ namespace StopWatch.Repositories
         {
             var engine = new TesseractEngine(@"tessdata", "eng", EngineMode.Default);
             engine.SetVariable("tessedit_char_whitelist", "0123456789:");
+            engine.SetVariable("classify_bln_numeric_mode", "1");
 
             byte[] imageBytes = Convert.FromBase64String(image);
             MemoryStream memoryStream = new MemoryStream(imageBytes);
@@ -28,9 +30,18 @@ namespace StopWatch.Repositories
 
             var text = page.GetText();
 
-            Console.WriteLine(text);
+            // Aktuelles Format mm:ss:msms
+            string pattern = @"(\d{1,2})\s*:\s*(\d{2})\s*:\s*(\d{2})";
+            Match match = Regex.Match(text, pattern);
+            
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine("Minuten: " + match.Groups[1].Value);
+            Console.WriteLine("Sekunden: " + match.Groups[2].Value);
+            Console.WriteLine("Milisekunden: " + match.Groups[3].Value);
+            Console.WriteLine("Gesamte Zeit: " + match.Value);
+            Console.WriteLine("----------------------------------");
 
-            return Task.FromResult(text);
+            return Task.FromResult(match.Value);
         }
 
         private static SKBitmap AdjustContrast(SKBitmap image, float contrast)

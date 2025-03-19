@@ -8,7 +8,7 @@ import { tap } from 'rxjs';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  public stopWatchTime: string = '0:20:00:14';
+  public stopWatchTime: string = '-';
   public allowedTypes: string[] = ['image/jpeg', 'image/png'];
 
   public constructor(private readonly _imageService: ImageService) {
